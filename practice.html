@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>practice</title>
+    <link rel="stylesheet" href="practice.css">
 </head>
 <body>
-    <div>
+    <div id="container">
         <div id="images">
             <input type="radio" name="slide" id="img1" checked>
             <input type="radio" name="slide" id="img2">
@@ -46,5 +47,18 @@
             <label for="img4"></label>
         </div>
     </div>
+    <script>
+        let labels = document.querySelectorAll('#dots label')
+        for (label of labels) {
+            label.addEventListener('click', function(e){
+                console.log(e.target)
+                for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
+                    console.log(document.querySelectorAll('#dots label')[i].style.backgroundColor)
+                    document.querySelectorAll('#dots label')[i].style.backgroundColor = 'none'
+                }
+                e.target.style.backgroundColor = '#fff'
+            })
+        }
+    </script>
 </body>
 </html>
