@@ -11,6 +11,8 @@ body {
     background-color: slategray;
 }
 
+.checked, #dots label:hover { background: #fff; } /* for javascript! */
+
 #container {
     margin-top: 10rem;
     width: 70%;
@@ -18,7 +20,7 @@ body {
 
 #images {
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 div.img {
@@ -69,9 +71,18 @@ div.img {
     
 }
 
-#dots label:hover  {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
 
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
 
-#images input:checked ~ .img {
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
 
+#img4:checked ~ .m4 {
+    margin-left: -300%;
 }

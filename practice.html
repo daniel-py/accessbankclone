@@ -41,22 +41,19 @@
             </div>
         </div>
         <div id="dots">
-            <label for="img1"></label>
+            <label for="img1" class="checked"></label>
             <label for="img2"></label>
             <label for="img3"></label>
             <label for="img4"></label>
         </div>
     </div>
     <script>
-        let labels = document.querySelectorAll('#dots label')
-        for (label of labels) {
+        for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
-                console.log(e.target)
                 for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
-                    console.log(document.querySelectorAll('#dots label')[i].style.backgroundColor)
-                    document.querySelectorAll('#dots label')[i].style.backgroundColor = 'none'
+                    document.querySelectorAll('#dots label')[i].className = ''
                 }
-                e.target.style.backgroundColor = '#fff'
+                e.target.className = 'checked'
             })
         }
     </script>
