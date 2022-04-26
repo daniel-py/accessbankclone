@@ -16,6 +16,7 @@ body {
 #container {
     margin-top: 10rem;
     width: 70%;
+    position: relative;
 }
 
 #images {
@@ -54,17 +55,32 @@ div.img {
     background-image: url(images/headerslide4.jpg);
 }
 
+.m5 {
+    background-image: url(images/headerslide5.PNG);
+}
+
+.m6 {
+    background-image: url(images/headerslide6.PNG);
+}
+
+.m7 {
+    background-image: url(images/headerslide7.PNG);
+}
+
 #dots {
     display: flex;
     justify-content: center;
     margin: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
 }
 
 #dots label {
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
-    border: solid #fff 3px;
+    border: solid #fff 1.5px;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
@@ -85,4 +101,16 @@ div.img {
 
 #img4:checked ~ .m4 {
     margin-left: -300%;
+}
+
+#img5:checked ~ .m5 {
+    margin-left: -400%;
+}
+
+#img6:checked ~ .m6 {
+    margin-left: -500%;
+}
+
+#img7:checked ~ .m7 {
+    margin-left: -600%;
 }
