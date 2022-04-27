@@ -11,22 +11,24 @@ body {
     background-color: slategray;
 }
 
-.checked, #dots label:hover { background: #fff; } /* for javascript! */
+.checked, #dots label:hover { background: #fff; } /* .checked for javascript! */
 
-#container {
+#slidecontainer {
     margin-top: 10rem;
-    width: 70%;
+    width: 90%;
     position: relative;
+    height: 90vh;
 }
 
 #images {
     display: flex;
     overflow-x: hidden;
+    height: 90%;
 }
 
 div.img {
     /* display: inline-block; */
-    height: 50vh;
+    height: ;
     flex: 0 0 100%;
     width: 100%;
     background-repeat: no-repeat;
