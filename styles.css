@@ -8,3 +8,16 @@ html {
     font-size: 62.5%;
 }
 
+.fixed {
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+
+#nav1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
