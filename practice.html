@@ -70,6 +70,12 @@
         </div>
     </div>
     <script>
+        let counter = 1;
+        setInterval(function(){
+            document.querySelector(`#img${counter}`)
+            counter++
+        }, 1000)
+
         for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
                 for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
