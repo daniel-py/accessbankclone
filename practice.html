@@ -70,11 +70,17 @@
         </div>
     </div>
     <script>
+        for label
         let counter = 1;
         setInterval(function(){
-            document.querySelector(`#img${counter}`)
+            document.querySelector(`#img${counter}`).checked = true
+            for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
+                    document.querySelectorAll('#dots label')[i].className = ''
+                }
+            document.querySelector(`label[for="img${counter}"`).className = 'checked'
             counter++
-        }, 1000)
+            if(counter >7){ counter=1}
+        }, 3000)
 
         for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
@@ -82,6 +88,7 @@
                     document.querySelectorAll('#dots label')[i].className = ''
                 }
                 e.target.className = 'checked'
+                counter = 
             })
         }
     </script>
