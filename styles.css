@@ -30,7 +30,7 @@ a {
 }
 
 #nav1 > div > a/*:not(a:last-child)*/ {
-    padding: .3rem 1rem;
+    padding: .3rem 1.2rem;
     border-right: solid lightgray 1px;
     color: lightgray;
     font-weight: bold;
@@ -39,8 +39,13 @@ a {
 
 #nav1 > div > a:last-child { border: none;}
 
+#nav2 {
+    background-color: lightgray;
+}
+
 #nav2 > * {
     display: inline-block;
     text-align: center;
+    padding: 1.5rem;
 }
 
