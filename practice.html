@@ -90,13 +90,11 @@
                 e.target.className = 'checked'
                 cont = e.target.getAttribute('for')
                 counter = cont[cont.length - 1]
-                console.log(counter)
             })
         }
 
         slideshow = document.querySelector("#slidecontainer")
         slideshow.addEventListener('mouseover', function(){
-            //clearInterval(clearint)
             for(i=0; i<100; i++){ clearInterval(i) }
         })
         slideshow.addEventListener('mouseleave', function(){

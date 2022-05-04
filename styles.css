@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 a {
@@ -25,15 +26,21 @@ a {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
+    padding: .5rem;
 }
 
 #nav1 > div > a/*:not(a:last-child)*/ {
-    padding: .3rem;
-    border-right: solid gray 1px;
+    padding: .3rem 1rem;
+    border-right: solid lightgray 1px;
+    color: lightgray;
+    font-weight: bold;
+
 }
+
+#nav1 > div > a:last-child { border: none;}
 
 #nav2 > * {
     display: inline-block;
     text-align: center;
 }
+
