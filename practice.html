@@ -70,9 +70,8 @@
         </div>
     </div>
     <script>
-        for label
         let counter = 1;
-        setInterval(function(){
+        function interval(){
             document.querySelector(`#img${counter}`).checked = true
             for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
                     document.querySelectorAll('#dots label')[i].className = ''
@@ -80,7 +79,8 @@
             document.querySelector(`label[for="img${counter}"`).className = 'checked'
             counter++
             if(counter >7){ counter=1}
-        }, 3000)
+        }
+        clearint = setInterval(interval, 2000)
 
         for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
@@ -88,9 +88,20 @@
                     document.querySelectorAll('#dots label')[i].className = ''
                 }
                 e.target.className = 'checked'
-                counter = 
+                cont = e.target.getAttribute('for')
+                counter = cont[cont.length - 1]
+                console.log(counter)
             })
         }
+
+        slideshow = document.querySelector("#slidecontainer")
+        slideshow.addEventListener('mouseover', function(){
+            //clearInterval(clearint)
+            for(i=0; i<100; i++){ clearInterval(i) }
+        })
+        slideshow.addEventListener('mouseleave', function(){
+            setInterval(interval, 2000)
+        })
     </script>
 </body>
 </html>
