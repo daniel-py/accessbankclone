@@ -34,24 +34,35 @@ a {
     border-right: solid lightgray 1px;
     color: lightgray;
     font-weight: bold;
+}
 
+#nav1 > div > a:hover {
+    color: orangered;
 }
 
 #nav1 > div > a:last-child { border: none;}
 
 #nav2 {
     background-color: lightgray;
-    text-align: center;
-    overflow: hidden;
 }
 
-#nav2 > * {
-    display: inline-block;
+#nav2 > div {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+#nav2 > div > * {
     text-align: center;
+    border-right: solid white 1px;
+    color: #656565;
     padding: 1.5rem;
     font-size: 1.1rem;
+    font-weight: 400;
+    height: 100%;
+
 }
 
 #nav2  a:hover, #active {
-    background: coral;
+    background: orangered;
 }
