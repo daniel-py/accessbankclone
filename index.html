@@ -275,14 +275,36 @@
 
     <p class="fixed letschat">LET'S CHAT <i class="fa-solid fa-user-doctor-message"></i></p>  
     <script>
+        let counter = 1;
+        function interval(){
+            document.querySelector(`#img${counter}`).checked = true
+            for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
+                    document.querySelectorAll('#dots label')[i].className = ''
+                }
+            document.querySelector(`label[for="img${counter}"`).className = 'checked'
+            counter++
+            if(counter >7){ counter=1}
+        }
+        clearint = setInterval(interval, 2000)
+
         for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
                 for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
                     document.querySelectorAll('#dots label')[i].className = ''
                 }
                 e.target.className = 'checked'
+                cont = e.target.getAttribute('for')
+                counter = cont[cont.length - 1]
             })
         }
-    </script>
+
+        slideshow = document.querySelector("#slidecontainer")
+        slideshow.addEventListener('mouseover', function(){
+            for(i=0; i<100; i++){ clearInterval(i) }
+        })
+        slideshow.addEventListener('mouseleave', function(){
+            setInterval(interval, 2000)
+        })
+    </script>>
 </body>
 </html>

@@ -65,4 +65,5 @@ a {
 
 #nav2  a:hover, #active {
     background: orangered;
+    color: white;
 }
