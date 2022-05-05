@@ -41,11 +41,17 @@ a {
 
 #nav2 {
     background-color: lightgray;
+    text-align: center;
+    overflow: hidden;
 }
 
 #nav2 > * {
     display: inline-block;
     text-align: center;
     padding: 1.5rem;
+    font-size: 1.1rem;
 }
 
+#nav2  a:hover, #active {
+    background: coral;
+}
