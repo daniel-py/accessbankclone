@@ -61,6 +61,11 @@ a {
     font-weight: 400;
 }
 
+#nav2 input {
+    background: url(images/search.svg) no-repeat right;
+    background-size: contain;
+}
+
 #nav2 a:hover, #nav2 #active {
     background: orangered;
     color: white;
