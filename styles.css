@@ -60,6 +60,9 @@ a {
     padding: 1.5rem;
     font-size: 1.1rem;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #nav2 > div > a:nth-last-of-type(2) {
@@ -67,11 +70,13 @@ a {
 }
 
 #nav2 input {
-    background: url(images/search.svg) no-repeat right;
-    background-size: 18px;
-    height: 70%;
-    padding: none;
+    height: 20px;
+    width: 70%;
+    padding: 0 7px;
+    margin-right: 3px;
     border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px gray;
 }
 
 #nav2 a:hover, #nav2 #active {
