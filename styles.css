@@ -63,23 +63,32 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: pre;
 }
 
 #nav2 > div > a:nth-last-of-type(2) {
+    border-right: none;
+}
+
+#nav2 span { 
     border: none;
+    margin: ;
 }
 
 #nav2 input {
-    height: 20px;
+    height: 25px;
     width: 70%;
-    padding: 0 7px;
-    margin-right: 3px;
+    padding: 0 10px;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
 }
 
-#nav2 a:hover, #nav2 #active {
+#nav2 input:focus  { outline: none;}
+
+#nav2 span > a { margin-left: -11%;}
+
+#nav2 > div > a:hover, #nav2 #active {
     background: orangered;
     color: white;
 }
