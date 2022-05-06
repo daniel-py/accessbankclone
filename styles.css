@@ -55,15 +55,23 @@ a {
 #nav2 > div > * {
     text-align: center;
     border-right: solid white 1px;
+    border-left: solid white 1px;
     color: #656565;
     padding: 1.5rem;
     font-size: 1.1rem;
     font-weight: 400;
 }
 
+#nav2 > div > a:nth-last-of-type(2) {
+    border: none;
+}
+
 #nav2 input {
     background: url(images/search.svg) no-repeat right;
-    background-size: contain;
+    background-size: 18px;
+    height: 70%;
+    padding: none;
+    border: none;
 }
 
 #nav2 a:hover, #nav2 #active {
