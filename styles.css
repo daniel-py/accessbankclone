@@ -167,3 +167,30 @@ div.img {
     
 }
 
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+#img5:checked ~ .m5 {
+    margin-left: -400%;
+}
+
+#img6:checked ~ .m6 {
+    margin-left: -500%;
+}
+
+#img7:checked ~ .m7 {
+    margin-left: -600%;
+}
