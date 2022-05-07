@@ -163,6 +163,21 @@ div.img {
 #img7:checked ~ .m7 {margin-left: -600%;}
 
 
+.img {padding: 6rem 0 0 8rem;}
+
+.img h1 { font-size: 4rem; font-weight: 800;}
+
+.img button {
+    transition: all .5s ease-in;
+    overflow-x: hidden;
+    width: 10%;
+}
+
+
+.img button:hover {
+    display: inline;
+}
+
 
 #itemsonslide {
     position: absolute;
