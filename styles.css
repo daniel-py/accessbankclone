@@ -58,7 +58,7 @@ button {
     border-right: solid white 1px;
     border-left: solid white 1px;
     color: #656565;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     font-size: 1.1rem;
     font-weight: 400;
     display: flex;
@@ -133,5 +133,37 @@ div.img {
 
 .m4 {
     background-image: url(images/headerslide4.jpg);
+}
+
+.m5 {
+    background-image: url(images/headerslide5.PNG);
+}
+
+.m6 {
+    background-image: url(images/headerslide6.PNG);
+}
+
+.m7 {
+    background-image: url(images/headerslide7.PNG);
+}
+
+#dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+#dots label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #fff 1.5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 5px;
+    
 }
 
