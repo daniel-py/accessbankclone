@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
 a {
@@ -34,10 +34,11 @@ button {
     padding: .5rem;
 }
 
-#nav1 > div > a/*:not(a:last-child)*/ {
+#nav1 > div > a {
     padding: .3rem 1.2rem;
     border-right: solid lightgray 1px;
     color: lightgray;
+    font-size: 1.14rem;
     font-weight: bold;
 }
 
@@ -59,7 +60,7 @@ button {
     border-left: solid white 1px;
     color: #656565;
     padding: 1rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -113,7 +114,7 @@ div.img {
 
 .img h1 { 
     font-size: 5rem; 
-    font-family:  Calibri, sans-serif;
+    font-family: Calibri, sans-serif;
     font-weight: 1000; 
     white-space: pre;
     }
@@ -122,18 +123,25 @@ div.img {
     transition: all 1s ease;
     display: block;
     overflow-x: hidden;
-    width: 9%;
+    width: 9.5%;
     white-space: nowrap;
     text-align: center;
+    white-space: pre;
 }
 
-.img button:hover {width: 11%;}
+.img button:hover {width: 11.5%;}
 
 #images input {display: none;}
 
 .m1 {
     background-image: url(images/headerslide1.jpg);
     color: white;
+}
+
+.m1 h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: -1rem;
 }
 
 .m2 {background-image: url(images/headerslide2.jpg);}
