@@ -16,7 +16,7 @@ a {
 
 button {
     padding: 1rem;
-    border: .3px solid white;
+    border: 2px solid white;
 }
 
 .fixed {
@@ -124,16 +124,17 @@ div.img {
     overflow-x: hidden;
     width: 9%;
     white-space: nowrap;
+    text-align: center;
 }
 
-
-.img button:hover {
-    width: 11%;
-}
+.img button:hover {width: 11%;}
 
 #images input {display: none;}
 
-.m1 {background-image: url(images/headerslide1.jpg);}
+.m1 {
+    background-image: url(images/headerslide1.jpg);
+    color: white;
+}
 
 .m2 {background-image: url(images/headerslide2.jpg);}
 
