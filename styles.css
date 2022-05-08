@@ -168,14 +168,16 @@ div.img {
 .img h1 { font-size: 4rem; font-weight: 800;}
 
 .img button {
-    transition: all .5s ease-in;
+    transition: all 1s ease-in-out;
+    display: block;
     overflow-x: hidden;
-    width: 10%;
+    width: 9%;
+    white-space: nowrap;
 }
 
 
 .img button:hover {
-    display: inline;
+    width: fit-content;
 }
 
 
