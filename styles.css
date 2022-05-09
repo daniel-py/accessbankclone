@@ -127,6 +127,9 @@ div.img {
     white-space: nowrap;
     text-align: center;
     white-space: pre;
+    background: blue;
+    color: white;
+    margin-top: 2rem;
 }
 
 .img button:hover {width: 11.5%;}
@@ -151,13 +154,22 @@ div.img {
     margin-top: 1rem;
 }
 
-.img button {
-    background: blue;
-    color: white;
-    margin-top: 2rem;
+.m2 {background-image: url(images/headerslide2.jpg);}
+
+.m2 h1 {
+    color: orangered;
+    margin-bottom: 1rem;
 }
 
-.m2 {background-image: url(images/headerslide2.jpg);}
+.m2 h4, p {
+    white-space: pre;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.m2 p { font-weight: 100;}
+
+.m2 button { margin-top: 1rem;}
 
 .m3 {background-image: url(images/headerslide3.PNG);}
 
