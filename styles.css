@@ -190,7 +190,32 @@ div.img {
 
 .m4 {background-image: url(images/headerslide4.jpg);}
 
+.m4 h1 {color: blue;}
+
+.m4 p {
+    font-size: 1.7rem;
+    white-space: pre;
+    margin: .7rem 0 3rem 0;
+}
+
 .m5 {background-image: url(images/headerslide5.PNG);}
+
+.m5 p {
+    font-size: 1.7rem;
+    white-space: pre;
+    margin-top: 1rem;
+}
+
+.m5 p:last-of-type {
+    color: orangered;
+    margin: 0 0 1rem 0;
+}
+
+.m5 button {
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
 
 .m6 {background-image: url(images/headerslide6.PNG);}
 
