@@ -120,7 +120,7 @@ div.img {
     }
 
 .img button {
-    transition: all 1s ease;
+    transition: all .6s ease;
     display: block;
     overflow-x: hidden;
     width: 9.5%;
@@ -144,6 +144,19 @@ div.img {
     margin-bottom: -1rem;
 }
 
+.m1 p, .m1 i {
+    display: block;
+    font-size: 1.9rem;
+    white-space: pre;
+    margin-top: 1rem;
+}
+
+.img button {
+    background: blue;
+    color: white;
+    margin-top: 2rem;
+}
+
 .m2 {background-image: url(images/headerslide2.jpg);}
 
 .m3 {background-image: url(images/headerslide3.PNG);}
@@ -161,7 +174,7 @@ div.img {
     justify-content: center;
     margin: 5px;
     position: absolute;
-    bottom: 10%;
+    bottom: 30%;
     left: 5%;
 }
 
