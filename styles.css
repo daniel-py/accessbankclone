@@ -127,7 +127,7 @@ div.img {
     white-space: nowrap;
     text-align: center;
     white-space: pre;
-    background: blue;
+    background: rgb(26, 104, 165);
     color: white;
     margin-top: 2rem;
 }
@@ -161,7 +161,7 @@ div.img {
     margin-bottom: 1rem;
 }
 
-.m2 h4, p {
+.m2 h4, .m2 p {
     white-space: pre;
     font-size: 2rem;
     margin-top: 1rem;
@@ -169,9 +169,24 @@ div.img {
 
 .m2 p { font-weight: 100;}
 
-.m2 button { margin-top: 1rem;}
+.m2 button { margin-top: 2rem;}
 
 .m3 {background-image: url(images/headerslide3.PNG);}
+
+.m3 h1 {color: orangered;}
+
+.m3 p {
+    font-size: 1.7rem;
+    color: white;
+    margin: .7rem 0 3rem 0;
+    font-weight: bold;
+}
+
+.m3 button {
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
 
 .m4 {background-image: url(images/headerslide4.jpg);}
 
