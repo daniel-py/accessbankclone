@@ -297,18 +297,27 @@ div.img {
     height: 25%;
 }
 
-#itemsonslide > div {
+#itemsonslidecontainer  {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
-    height: 90%;
+    align-items: center;
+    height: 100%;
 }
 
-#itemsonslide > div > * {
+#itemsonslidecontainer > * {
     display: flex;
     justify-content: center;
-    height: 100%;
-    border-right: white 2px solid;
+    height: 70%;
+    border-right: white 1px solid;
     color: white;
+    padding: 1rem;
+    font-size: larger;
+}
+
+#itemsonslide  img {
+    padding-right: 2rem;
+    height: fit-content;
+    width: fit-content;
 }
