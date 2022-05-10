@@ -107,7 +107,7 @@ div.img {
     flex: 0 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     transition: all 0.5s ease;
     padding: 6rem 0 0 8rem;
 }
@@ -219,7 +219,39 @@ div.img {
 
 .m6 {background-image: url(images/headerslide6.PNG);}
 
-.m7 {background-image: url(images/headerslide7.PNG);}
+.m6 h1 {
+    color: rgb(181, 211, 52);
+    white-space: pre;
+    line-height: 5rem;
+}
+
+.m6 button {
+    background-color: rgb(181, 211, 52);
+    color: black;
+    border-color: black;
+}
+
+.m7 {
+    background-image: url(images/headerslide7.PNG);
+    color: white;
+}
+
+.m7 h1{
+    line-height: 5rem;
+    color: rgb(181, 211, 52);
+}
+
+.m7 h1 span {
+    color: white;
+    font-weight: 100;
+}
+
+.m7 p {
+    font-size: 1.9rem;
+    white-space: pre;
+    font-weight: ;
+    margin: .9rem 0 3rem 0;
+}
 
 #dots {
     display: flex;
