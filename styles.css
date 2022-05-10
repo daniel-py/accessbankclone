@@ -94,13 +94,13 @@ button {
 
 #slidecontainer {
     position: relative;
-    height: 90vh;
+    height: 83vh;
 }
 
 #images {
     display: flex;
     overflow-x: hidden;
-    height: 90%;
+    height: 100%;
 }
 
 div.img {
@@ -291,4 +291,13 @@ div.img {
 
 #itemsonslide {
     position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+#itemsonslide > div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
