@@ -293,6 +293,8 @@ div.img {
     position: absolute;
     bottom: 0;
     background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 25%;
 }
 
 #itemsonslide > div {
@@ -300,4 +302,13 @@ div.img {
     margin: auto;
     display: flex;
     justify-content: center;
+    height: 90%;
+}
+
+#itemsonslide > div > * {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-right: white 2px solid;
+    color: white;
 }
