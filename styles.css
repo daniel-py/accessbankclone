@@ -326,7 +326,18 @@ div.img {
 }
 
 #news {
-    height: 2rem;
+    height: 3rem;
     background-color: lightgrey;
     margin-bottom: 5rem;
+}
+
+#news p {
+    margin-left: 13rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: darkgray;
+    width: fit-content;
+    height: 100%;
+    line-height: 3rem;
+    padding: 0 .8rem;
 }
