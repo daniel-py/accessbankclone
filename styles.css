@@ -341,3 +341,20 @@ div.img {
     line-height: 3rem;
     padding: 0 .8rem;
 }
+
+#accessmorecontainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#accessmorecontainer > *{
+    text-align: center;
+}
+
+#accessmorecontainer h4{
+    font-size: 1.7rem;
+    color: rgb(26, 104, 165);
+    margin-bottom: 3rem;
+}
