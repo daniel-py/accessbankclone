@@ -411,6 +411,13 @@ div.img {
     margin-bottom: 3rem;
 }
 
-#acessclosa p {
-    
+#accessclosa p {
+    font-size: 1.8rem;
+    white-space: pre;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+#accessclosa p:last-of-type {
+    color: #95d5fe;
 }
