@@ -17,6 +17,7 @@ a {
 button {
     padding: 1rem;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .fixed {
@@ -343,7 +344,7 @@ div.img {
 }
 
 #accessmorecontainer {
-    width: 80%;
+    width: 83%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -351,9 +352,13 @@ div.img {
 
 #accessmorecontainer > * {
     text-align: center;
-    border-right: 1px gray solid;
+    border-right: 1px lightgray solid;
     padding: 0 3rem;
+    flex: 0 0 33%;
 }
+
+#accessmorecontainer > div:last-of-type { border: none;}
+
 
 #accessmorecontainer h4{
     font-size: 1.7rem;
@@ -363,5 +368,20 @@ div.img {
 
 #accessmorecontainer p {
     font-size: 1.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+    color: gray;
+}
+
+#accessmorecontainer button {
+    color: white;
+    font-weight: bold;
+    background: rgb(26, 104, 165);
+    padding: 1.5rem 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+#accessmorecontainer button:hover {
+    background: white;
+    border: 1px solid rgb(26, 104, 165);
+    color: rgb(26, 104, 165);
 }
