@@ -389,12 +389,28 @@ div.img {
 #accessclosa {
     margin-top: 12rem;
     background: url(images/accessclosa.jpg);
-    padding-left: 10rem;
+    padding: 3rem 0 0 15rem;
 }
 
 #accessclosa h2:first-of-type, #accessclosa h1 { color: #ABBB01;}
 
-#accessclosa h1 {
+#accessclosa h2:first-of-type {
     font-size: 4rem;
+    line-height: 4rem;
+}
+
+#accessclosa h1 {
+    font-size: 8rem;
     font-weight: 900;
+    line-height: 8rem;
+    margin-top: -1.5rem;
+}
+
+#accessclosa h2:last-of-type {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#acessclosa p {
+    
 }
