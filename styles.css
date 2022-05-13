@@ -441,5 +441,15 @@ div.img {
 
 #accessservicesscont {
     width: 80%;
-    margin: auto;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+#accessservicesscont > * {
+    text-align: center;
+    padding: 3rem;
+    border-right: 1px lightgray solid;
+    flex: 0 0 33%;
 }
