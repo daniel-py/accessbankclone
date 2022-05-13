@@ -390,6 +390,8 @@ div.img {
     margin-top: 12rem;
     background: url(images/accessclosa.jpg);
     padding: 3rem 0 0 15rem;
+    background-size: cover;
+    background-position: 30%;
 }
 
 #accessclosa h2:first-of-type, #accessclosa h1 { color: #ABBB01;}
@@ -420,4 +422,19 @@ div.img {
 
 #accessclosa p:last-of-type {
     color: #95d5fe;
+}
+
+#accessclosa button {
+    padding: 1rem 2.3rem;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-bottom: 3rem;
+    color: gray;
+    transition: all .5s ease;
+    font-size: 1.5rem;
+}
+
+#accessclosa button:hover {
+    color: black;
+    border: 2px solid black;
 }
