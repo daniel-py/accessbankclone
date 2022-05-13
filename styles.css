@@ -438,3 +438,8 @@ div.img {
     color: black;
     border: 2px solid black;
 }
+
+#accessservicesscont {
+    width: 80%;
+    margin: auto;
+}
