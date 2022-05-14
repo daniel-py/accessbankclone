@@ -456,6 +456,8 @@ div.img {
     flex: 0 0 33%;
 }
 
+#accessservicescont > a:nth-last-of-type(2) {border: none;}
+
 #accessservicescont > *:hover {
     color:  rgb(26, 104, 165);
 }
@@ -480,18 +482,21 @@ div.img {
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     line-height: 4rem;
     padding: 0;
 }
 
-.larr {
-    left: 10%;
+.larr { left: 8%;}
+
+.rarr { right: 8%;}
+
+#accessblog {
+    width: 80%;
+    margin: auto;
 }
 
-.rarr {
-    right: 10%;
+#blogtitle {
+    text-align: center;
+    margin-bottom: 5rem;
 }
