@@ -471,11 +471,12 @@ div.img {
 
 .arr {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: lightgray;
+    opacity: .5;
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -484,12 +485,13 @@ div.img {
     align-items: center; */
     text-align: center;
     line-height: 4rem;
+    padding: 0;
 }
 
 .larr {
-    left: 0;
+    left: 10%;
 }
 
 .rarr {
-    right: 0;
+    right: 10%;
 }
