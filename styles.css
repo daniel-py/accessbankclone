@@ -500,3 +500,12 @@ div.img {
     text-align: center;
     margin-bottom: 5rem;
 }
+
+#blogtitle h2 {
+    font-size: 3.5rem;
+    color: rgb(26, 104, 165);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+#blogtitle p {font-size: 1.5rem;}
