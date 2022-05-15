@@ -456,7 +456,7 @@ div.img {
     flex: 0 0 33%;
 }
 
-#accessservicescont > a:nth-last-of-type(2) {border: none;}
+#accessservicescont > a:nth-of-type(3), #accessservicescont > a:nth-of-type(6) {border: none;}
 
 #accessservicescont > *:hover {
     color:  rgb(26, 104, 165);
@@ -478,13 +478,14 @@ div.img {
     height: 40px;
     border-radius: 50%;
     background-color: lightgray;
-    opacity: .5;
+    opacity: .3;
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    text-align: center;
-    line-height: 4rem;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .larr { left: 8%;}
