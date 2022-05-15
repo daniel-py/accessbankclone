@@ -7,98 +7,55 @@
     <link rel="stylesheet" href="practice.css">
 </head>
 <body>
-    <div id="slidecontainer">
-        <div id="images">
-            <input type="radio" name="slide" id="img1" checked>
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-            <input type="radio" name="slide" id="img4">
-            <input type="radio" name="slide" id="img5">
-            <input type="radio" name="slide" id="img6">
-            <input type="radio" name="slide" id="img7">
+    <section id="accessservices">
+        <button class="arr larr" >&lt</button>
+        <button class="arr rarr" >&gt</button>
+        <div id="accessservicescont">
+            <a href="#">
+                <img src="images/diamondxtra.png" alt="">
+                <h3>DIAMONDXTRA</h3>
+                <p>Open a DiamondXtra account and stand a chance to win Salary 4 life</p>
+            </a>
+            <a href="#">
+                <img src="images/loans.png" alt="">
+                <h3>Loans</h3>
+                <p>Our personal loans provide you with dependable financial solutions that help you reach your goals</p>
+            </a>
+            <a href="#">
+                <img src="images/ccaccount.png" alt="">
+                <h3>COMMUNITY CURRENT ACCOUNT</h3>
+                <p>An account for registered Non-Governmental & Profit Organizations </p>
+            </a>
+            <a href="#">
+                <img src="images/ccaccount.png" alt="">
+                <h3>*901# BANKING SOLUTION</h3>
+                <p>No need to walk into the banking halls, you can pay bills now from your phone </p>
+            </a>
+            <a href="#">
+                <img src="images/diamondxtra.png" alt="">
+                <h3>DIAMONDXTRA</h3>
+                <p>Open a DiamondXtra account and stand a chance to win Salary 4 life</p>
+            </a>
+            <a href="#">
+                <img src="images/loans.png" alt="">
+                <h3>Loans</h3>
+                <p>Our personal loans provide you with dependable financial solutions that help you reach your goals</p>
+            </a>
+        </div>
+    </section>
 
-            <div class="img m1">
-                <h2>You're our</h2>
-                <h1>YOUniverse</h1>
-                <p>Marking 20 years of the Bank's journey via transformational leadership and achievements</p>
-                <p>#NoUsWithoutYou #AccessYOUniverse</p>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m2">
-                <h1>Dream more</h1>
-                <h4>We are leading an evolving generation of digitally led banks</4>
-                <p>Using mobile connectivity to reach people with tailor-made financial solutions</p>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m3">
-                <h1>Grow More</h1>
-                <p>We are leading the way for Africa's Green Revolution</p>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m4">
-                <h1>Be More</h1>
-                <p>We are creating an enabling environment that is tapping into the ambition and growth of millions.</p>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m5">
-                <h1>Protect your Account</h1>
-                <p>Your banking Information such as, the 16-digit card number, password, PIN, BVN, CVV or One-Time Password(OTP) is too personal
-                    to be shared with anyone.
-                </p>
-                <p>#BanksDontAsk</p>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m6">
-                <h1>Do you have the right blocks to attain financial security?</h1>
-                <button>ACCESS MORE</button>
-            </div>
-            <div class="img m7">
-                <h1>Tailor made solutions <span>for your business</span></h1>
-                <p>We offer personalized and innovative solutions to meet the needs of your business.</p>
-                <p>#NoUsWithoutYou #AccessYOUniverse</p>
-                <button>ACCESS MORE</button>
-            </div>
-        </div>
-        <div id="dots">
-            <label for="img1" class="checked"></label>
-            <label for="img2"></label>
-            <label for="img3"></label>
-            <label for="img4"></label>
-            <label for="img5"></label>
-            <label for="img6"></label>
-            <label for="img7"></label>
-        </div>
-    </div>
     <script>
-        let counter = 1;
-        function interval(){
-            document.querySelector(`#img${counter}`).checked = true
-            for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
-                    document.querySelectorAll('#dots label')[i].className = ''
-                }
-            document.querySelector(`label[for="img${counter}"`).className = 'checked'
-            counter++
-            if(counter >7){ counter=1}
-        }
-        clearint = setInterval(interval, 2000)
+        let rightbtn = document.querySelector(".rarr");
+        let leftbtn = document.querySelector(".larr");
+        let carouselslide = document.querySelector("#accessservicescont")
 
-        for (label of document.querySelectorAll('#dots label')) {
-            label.addEventListener('click', function(e){
-                for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
-                    document.querySelectorAll('#dots label')[i].className = ''
-                }
-                e.target.className = 'checked'
-                cont = e.target.getAttribute('for')
-                counter = cont[cont.length - 1]
-            })
-        }
-
-        slideshow = document.querySelector("#slidecontainer")
-        slideshow.addEventListener('mouseover', function(){
-            for(i=0; i<100; i++){ clearInterval(i) }
+        rightbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            carouselslide.className = 'rightslide'
         })
-        slideshow.addEventListener('mouseleave', function(){
-            setInterval(interval, 2000)
+        leftbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            carouselslide.className = ''
         })
     </script>
 </body>
