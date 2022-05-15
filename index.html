@@ -217,11 +217,6 @@ transactions like: </p>
                 <h3>Loans</h3>
                 <p>Our personal loans provide you with dependable financial solutions that help you reach your goals</p>
             </a>
-            <a href="#">
-                <img src="images/ccaccount.png" alt="">
-                <h3>COMMUNITY CURRENT ACCOUNT</h3>
-                <p>An account for registered Non-Governmental & Profit Organizations </p>
-            </a>
         </div>
     </section>
 
@@ -340,6 +335,19 @@ transactions like: </p>
         })
         slideshow.addEventListener('mouseleave', function(){
             setInterval(interval, 2000)
+        })
+
+        let rightbtn = document.querySelector(".rarr");
+        let leftbtn = document.querySelector(".larr");
+        let carouselslide = document.querySelector("#accessservicescont")
+
+        rightbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            carouselslide.className = 'rightslide'
+        })
+        leftbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            carouselslide.className = ''
         })
     </script>>
 </body>

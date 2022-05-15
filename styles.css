@@ -439,14 +439,15 @@ div.img {
     border: 2px solid black;
 }
 
-#accessservices {position: relative;}
+#accessservices {position: relative; width: 80%; margin: auto; overflow: hidden;}
 
 #accessservicescont {
-    width: 80%;
-    margin: 5rem auto 10rem;
+    width:;
+    margin: 5rem 0 10rem;
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
+    transition: all 0.3s ease;
 }
 
 #accessservicescont > * {
@@ -478,7 +479,7 @@ div.img {
     height: 40px;
     border-radius: 50%;
     background-color: lightgray;
-    opacity: .3;
+    opacity: .2;
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -510,3 +511,5 @@ div.img {
 }
 
 #blogtitle p {font-size: 1.5rem;}
+
+.rightslide {margin-left: -100% !important;}
