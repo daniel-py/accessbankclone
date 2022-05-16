@@ -78,8 +78,8 @@ a {
 .rarr { right: 8%;}
 
 .rightslide {
-    /* transform: translate(-100%,0) !important; */
-    margin-left: -100% !important;
+    transform: translate(-100%,0) !important;
+    /* margin-left: -100% !important; */
 }
 
 .leftslide {transform: translate(100%,0) !important;}
@@ -88,5 +88,5 @@ a {
     border: 2px solid burlywood;
     height: 200px;
     width: 150px;
-    margin-right: -200%;
+    margin-left: 20px;
 }
