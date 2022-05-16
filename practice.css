@@ -5,9 +5,9 @@
 }
 
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: ;
 }
 
@@ -22,7 +22,7 @@ a {
     position: relative; 
     width: 80%; 
     margin: auto; 
-    overflow: ;
+    overflow-x: hidden;
 }
 
 #accessservicescont {
@@ -70,12 +70,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
-.larr { left: 2%;}
+.larr { left: 8%;}
 
-.rarr { right: 2%;}
+.rarr { right: 8%;}
 
-.rightslide {transform: translate(-100%,0) !important;}
+.rightslide {
+    /* transform: translate(-100%,0) !important; */
+    margin-left: -100% !important;
+}
 
 .leftslide {transform: translate(100%,0) !important;}
+
+.forfun {
+    border: 2px solid burlywood;
+    height: 200px;
+    width: 150px;
+    margin-right: -200%;
+}
