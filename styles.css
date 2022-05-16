@@ -439,15 +439,20 @@ div.img {
     border: 2px solid black;
 }
 
-#accessservices {position: relative; width: 80%; margin: auto; overflow: hidden;}
+#accessservices {
+    position: relative; 
+    width: 80%; 
+    margin: auto; 
+    overflow-x: hidden;
+}
 
 #accessservicescont {
     width:;
     margin: 5rem 0 10rem;
     display: flex;
     justify-content: space-between;
-    overflow-x: hidden;
-    transition: all 0.3s ease;
+    overflow-x: ;
+    transition: all 0.2s ease-in-out;
 }
 
 #accessservicescont > * {
@@ -486,12 +491,14 @@ div.img {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 5;
 }
 
-.larr { left: 8%;}
+.larr { left: 0;}
 
-.rarr { right: 8%;}
+.rarr { right: 0;}
+
+.rightslide {transform: translate(-100%,0);}
 
 #accessblog {
     width: 80%;
@@ -512,4 +519,3 @@ div.img {
 
 #blogtitle p {font-size: 1.5rem;}
 
-.rightslide {margin-left: -100% !important;}

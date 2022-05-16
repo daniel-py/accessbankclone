@@ -31,7 +31,7 @@ a {
     display: flex;
     justify-content: space-between;
     overflow-x: ;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in-out;
 }
 
 #accessservicescont > * {
@@ -73,20 +73,9 @@ a {
     z-index: 5;
 }
 
-.larr { left: 8%;}
+.larr { left: 0;}
 
-.rarr { right: 8%;}
+.rarr { right: 0;}
 
-.rightslide {
-    transform: translate(-100%,0) !important;
-    /* margin-left: -100% !important; */
-}
+.rightslide {transform: translate(-100%,0);}
 
-.leftslide {transform: translate(100%,0) !important;}
-
-.forfun {
-    border: 2px solid burlywood;
-    height: 200px;
-    width: 150px;
-    margin-left: 20px;
-}
