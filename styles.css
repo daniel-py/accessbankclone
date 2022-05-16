@@ -444,6 +444,7 @@ div.img {
     width: 80%; 
     margin: auto; 
     overflow-x: hidden;
+    margin-top: 
 }
 
 #accessservicescont {
@@ -492,6 +493,7 @@ div.img {
     justify-content: center;
     align-items: center;
     z-index: 5;
+    outline: none;
 }
 
 .larr { left: 0;}
@@ -519,3 +521,6 @@ div.img {
 
 #blogtitle p {font-size: 1.5rem;}
 
+#blogpostscontainer {
+    
+}
