@@ -503,8 +503,7 @@ div.img {
 .rightslide {transform: translate(-100%,0);}
 
 #accessblog {
-    width: 80%;
-    margin: auto;
+    background-color: #f3f3f3;
 }
 
 #blogtitle {
@@ -521,6 +520,23 @@ div.img {
 
 #blogtitle p {font-size: 1.5rem;}
 
-#blogpostscontainer {
-    
+#blogposts {
+    position: relative; 
+    width: 80%; 
+    margin: auto; 
+    overflow-x: hidden;
 }
+
+#blogpostscontainer {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+}
+
+#blogpostscontainer > * {
+    flex: 0 0 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 1rem;
+}
+
+.blogimg {width: 100%;}
