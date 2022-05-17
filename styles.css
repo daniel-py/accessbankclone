@@ -534,9 +534,14 @@ div.img {
 }
 
 #blogpostscontainer > * {
-    flex: 0 0 23%;
+    flex: 0 0 24%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.2);
     margin: 0 1rem;
+    background: white;
 }
 
 .blogimg {width: 100%;}
+
+#blogpostscontainer h3 {
+    margin: 2rem 0;
+}
