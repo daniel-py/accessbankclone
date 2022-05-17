@@ -532,24 +532,27 @@ div.img {
     display: flex;
     justify-content: space-between;
     transition: all 0.2s ease-in-out;
+
 }
 
 #blogpostscontainer > * {
-    flex: 0 0 24%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.2);
-    margin: 0 1rem;
+    flex: 0 0 22%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 1.5rem 2rem;
     background: white;
 }
 
 .blogimg {width: 100%;}
 
 #blogpostscontainer h3 {
-    margin: 2rem 1.7rem;
+    margin: 3rem 1.7rem 2rem;
     color: #71b7fd;
     font-size: 2rem;
     font-weight: 100;
 }
 
 #blogpostscontainer p {
-    margin: 2rem 1.7rem 4rem;
+    margin: 2rem 1.7rem 5rem;
+    font-size: 1.5rem;
+    color: gray;
 }
