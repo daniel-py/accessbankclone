@@ -505,6 +505,7 @@ div.img {
 #accessblog {
     background-color: #f7f9fa;
     padding-top: 4rem;
+    position: relative;
 }
 
 #blogtitle {
@@ -556,3 +557,24 @@ div.img {
     font-size: 1.5rem;
     color: gray;
 }
+
+button.blogarr {
+    position: absolute;
+    top: 60%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: orange;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+button.bloglarr {left: 6%;}
+button.blograrr {right: 6%;}
