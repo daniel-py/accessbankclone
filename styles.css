@@ -506,6 +506,7 @@ div.img {
     background-color: #f7f9fa;
     padding-top: 4rem;
     position: relative;
+    text-align: center;
 }
 
 #blogtitle {
@@ -560,7 +561,7 @@ div.img {
 
 button.blogarr {
     position: absolute;
-    top: 60%;
+    top: 50%;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -578,3 +579,19 @@ button.blogarr {
 
 button.bloglarr {left: 6%;}
 button.blograrr {right: 6%;}
+
+#accessblog button:last-of-type {
+    margin: 7rem 0 9rem;
+    padding: 1.5rem 2.3rem;
+    background: rgb(26, 104, 165);
+    color: #f7f9fa;
+    border: 1px solid rgb(26, 104, 165);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#accessblog button:last-of-type:hover {
+    background: transparent;
+    border: 1px solid rgb(26, 104, 165);
+    color: rgb(26, 104, 165);
+}
