@@ -368,6 +368,34 @@ transactions like: </p>
                 carouselslide.className = ''
             }
         })
+
+        let rightbtn = document.querySelector(".rarr");
+        let leftbtn = document.querySelector(".larr");
+        let carouselslide = document.querySelector("#accessservicescont")
+        let marg = 0;
+
+        rightbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            if (marg == 0){
+                marg = 100
+                carouselslide.className = 'rightslide'
+            }
+            else if (marg == 100){
+                marg = 0;
+                carouselslide.className = ''
+            }
+        })
+        leftbtn.addEventListener('click', function(e){
+            console.log("clicked")
+            if (marg == 0){
+                marg = 100
+                carouselslide.className = 'rightslide'
+            }
+            else if (marg == 100){
+                marg = 0;
+                carouselslide.className = ''
+            }
+        })
     </script>>
 </body>
 </html>
