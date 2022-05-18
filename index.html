@@ -369,31 +369,31 @@ transactions like: </p>
             }
         })
 
-        let rightbtn = document.querySelector(".rarr");
-        let leftbtn = document.querySelector(".larr");
-        let carouselslide = document.querySelector("#accessservicescont")
-        let marg = 0;
+        let rightblogbtn = document.querySelector(".blograrr");
+        let leftblogbtn = document.querySelector(".bloglarr");
+        let blogslide = document.querySelector("#blogpostscontainer")
+        let blogmarg = 0;
 
-        rightbtn.addEventListener('click', function(e){
+        rightblogbtn.addEventListener('click', function(e){
             console.log("clicked")
-            if (marg == 0){
-                marg = 100
-                carouselslide.className = 'rightslide'
+            if (blogmarg == 0){
+                blogmarg = 100
+                blogslide.className = 'rightslide'
             }
-            else if (marg == 100){
-                marg = 0;
-                carouselslide.className = ''
+            else if (blogmarg == 100){
+                blogmarg = 0;
+                blogslide.className = ''
             }
         })
-        leftbtn.addEventListener('click', function(e){
+        leftblogbtn.addEventListener('click', function(e){
             console.log("clicked")
-            if (marg == 0){
-                marg = 100
-                carouselslide.className = 'rightslide'
+            if (blogmarg == 0){
+                blogmarg = 100
+                blogslide.className = 'rightslide'
             }
-            else if (marg == 100){
-                marg = 0;
-                carouselslide.className = ''
+            else if (blogmarg == 100){
+                blogmarg = 0;
+                blogslide.className = ''
             }
         })
     </script>>
