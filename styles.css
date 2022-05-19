@@ -614,7 +614,7 @@ footer #newsletter > div {
     display: inline-flex;
     gap: 3rem;
     align-items: center;
-    margin: 0 12rem 0 8rem;
+    margin: 0 14rem 0 8rem;
 }
 
 footer #newsletter > div h3 {
@@ -622,9 +622,25 @@ footer #newsletter > div h3 {
 }
 
 footer #newsletter > form > * {
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 footer #newsletter > form > input[type="text"]{
-    width: 25rem;
+    width: 27rem;
+    margin-right: 2.3rem;
+    font-size: 1.1rem;
+    border: 1px solid rgb(125, 142, 150);
+}
+
+footer #newsletter > form > input[type="text"]:focus {
+    outline: none;
+    border: 1px solid lightblue;
+}
+
+footer #newsletter > form > input[type="button"]{
+    font-weight: bold;
+    background: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
