@@ -561,7 +561,7 @@ div.img {
 
 button.blogarr {
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -594,4 +594,14 @@ button.blograrr {right: 6%;}
     background: transparent;
     border: 1px solid rgb(26, 104, 165);
     color: rgb(26, 104, 165);
+}
+
+footer #newsletter {
+    color: white;
+    background: gray;
+    text-align: center;
+}
+
+footer #newsletter > * {
+    width: fit-content;
 }
