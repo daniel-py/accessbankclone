@@ -599,9 +599,24 @@ button.blograrr {right: 6%;}
 footer #newsletter {
     color: white;
     background: gray;
-    text-align: center;
+    text-align: ;
+    overflow: hidden;
+    padding: 2rem;
 }
 
 footer #newsletter > * {
-    width: fit-content;
+    width: 48%;
+    display: inline-block;
 }
+
+footer #newsletter > div {
+    display: inline-flex;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+footer #newsletter > div h3 {
+    font-size: 2rem;
+}
+
