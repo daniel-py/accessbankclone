@@ -598,14 +598,15 @@ button.blograrr {right: 6%;}
 
 footer #newsletter {
     color: white;
-    background: gray;
-    text-align: ;
-    overflow: hidden;
-    padding: 2rem;
+    background: rgb(125, 142, 150);
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
 }
 
 footer #newsletter > * {
-    width: 48%;
+    width: fit-content;
     display: inline-block;
 }
 
@@ -613,10 +614,17 @@ footer #newsletter > div {
     display: inline-flex;
     gap: 3rem;
     align-items: center;
-    margin-left: 4rem;
+    margin: 0 12rem 0 8rem;
 }
 
 footer #newsletter > div h3 {
     font-size: 2rem;
 }
 
+footer #newsletter > form > * {
+    padding: 1rem 2rem;
+}
+
+footer #newsletter > form > input[type="text"]{
+    width: 25rem;
+}
