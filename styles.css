@@ -617,13 +617,9 @@ footer #newsletter > div {
     margin: 0 14rem 0 8rem;
 }
 
-footer #newsletter > div h3 {
-    font-size: 2rem;
-}
+footer #newsletter > div h3 {font-size: 2rem;}
 
-footer #newsletter > form > * {
-    padding: 1rem 1.5rem;
-}
+footer #newsletter > form > * {padding: 1rem 1.5rem;}
 
 footer #newsletter > form > input[type="text"]{
     width: 27rem;
@@ -643,4 +639,15 @@ footer #newsletter > form > input[type="button"]{
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+footer #newsletter > form > input[type="button"]:hover{
+    background: orangered;
+}
+
+footer #bottomlinks {
+    background: rgb(51, 51, 51);
+    color: white;
+    padding: 5rem;
 }
