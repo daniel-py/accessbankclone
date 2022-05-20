@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     font-family: Calibri, sans-serif;
+    overflow: ;
 }
 
 a {
@@ -649,11 +650,15 @@ footer #newsletter > form > input[type="button"]:hover{
 footer #bottomlinks {
     background: #26343b;
     color: #ccc;
-    padding: 5rem;
+    padding: 6rem;
     text-align: center;
     font-size: 1.3rem;
+    background-clip: border-box;
 }
 
 footer #bottomlinks > div:first-child > * {
-    fons
+    padding: 0 1.5rem;
+    border-right: 1px solid #ccc;
 }
+
+footer #bottomlinks > div:first-child > span {border: none;}
