@@ -535,14 +535,14 @@ div.img {
     display: flex;
     justify-content: space-between;
     transition: all 0.4s ease-in-out;
-
 }
 
 #blogpostscontainer > * {
-    flex: 0 0 22%;
+    flex: 0 0 calc(25% - 3rem);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    margin: 0 1.5rem 2rem;
+    margin: 0 3rem 2rem 0;
     background: white;
+    text-align: left;
 }
 
 .blogimg {width: 100%;}
@@ -558,6 +558,7 @@ div.img {
     margin: 2rem 1.7rem 5rem;
     font-size: 1.5rem;
     color: black;
+    line-height: 2.3rem;
 }
 
 button.blogarr {
