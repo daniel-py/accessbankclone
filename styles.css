@@ -331,6 +331,9 @@ div.img {
     height: 3rem;
     background-color: lightgrey;
     margin-bottom: 12rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 #news p:first-child {
@@ -342,6 +345,22 @@ div.img {
     height: 100%;
     line-height: 3rem;
     padding: 0 .8rem;
+    white-space: nowrap;
+}
+
+#news #newscontainer {
+    overflow: hidden;
+    padding: 0 3rem;
+    position: ;
+    z-index: 100;
+}
+
+#news #newscontent {
+    white-space: pre;
+    position: relative;
+    font-size: 1.5rem;
+    overflow: ;
+    left: 50%;
 }
 
 #accessmorecontainer {
