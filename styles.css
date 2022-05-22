@@ -333,12 +333,10 @@ div.img {
     margin-bottom: 12rem;
     display: flex;
     align-items: center;
-    overflow: hidden;
-    z-index: 100;
 }
 
-#news p:first-child {
-    margin-left: 13rem;
+#news > p:first-child {
+    margin: 0 6rem 0 13rem;
     font-weight: bold;
     font-size: 1.5rem;
     background: darkgray;
@@ -347,22 +345,28 @@ div.img {
     line-height: 3rem;
     padding: 0 .8rem;
     white-space: nowrap;
-    z-index: 100; 
-}
+    }
 
 #news #newscontainer {
     overflow: hidden;
-    padding: 0 3rem;
-    position: ;
-    z-index: 100;
+    padding: 0;
+    position: relative;
+    border: 1px solid red;
+    width: 70%;
 }
 
 #news #newscontent {
     white-space: pre;
-    position: relative;
     font-size: 1.5rem;
-    overflow: ;
-    left: -30%;
+    animation-name: newsslide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* transform: translate(-90%, 0); */
+}
+
+@keyframes newsslide {
+    from {transform: translate(-95%, 0);}
+    to {transform: translate();}
 }
 
 #accessmorecontainer {
