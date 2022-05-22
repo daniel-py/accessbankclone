@@ -359,14 +359,15 @@ div.img {
     white-space: pre;
     font-size: 1.5rem;
     animation-name: newsslide;
-    animation-duration: 4s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     /* transform: translate(-90%, 0); */
 }
 
 @keyframes newsslide {
-    from {transform: translate(-95%, 0);}
-    to {transform: translate();}
+    from {transform: translate(100%, 0);}
+    to {transform: translate(-175%, 0);}
 }
 
 #accessmorecontainer {
