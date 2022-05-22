@@ -334,6 +334,7 @@ div.img {
     display: flex;
     align-items: center;
     overflow: hidden;
+    z-index: 100;
 }
 
 #news p:first-child {
@@ -346,6 +347,7 @@ div.img {
     line-height: 3rem;
     padding: 0 .8rem;
     white-space: nowrap;
+    z-index: 100; 
 }
 
 #news #newscontainer {
@@ -360,7 +362,7 @@ div.img {
     position: relative;
     font-size: 1.5rem;
     overflow: ;
-    left: 50%;
+    left: -30%;
 }
 
 #accessmorecontainer {
