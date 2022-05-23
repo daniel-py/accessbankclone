@@ -703,12 +703,26 @@ footer #bottomlinks > div:last-child > * {
     border-radius: 5px 0 0 5px;
     padding: 1rem;
     z-index: 5;
-    width: 70px;
+    width: 80px;
     text-align: center;
+    color: white;
+    font-size: 1.2rem;
 }
 
+.stock h4 {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
 
+.stock p:first-of-type {
+    font-weight: 900;
+    line-height: 1rem;
+    font-size: 1rem;
+}
 
+.
 
 
 @keyframes newsslide {
