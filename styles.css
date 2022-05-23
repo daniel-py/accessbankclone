@@ -24,7 +24,6 @@ button {
 .fixed {
     position: fixed;
     right: 0;
-    top: 50%;
 }
 
 #nav1 {
@@ -735,6 +734,19 @@ div.stock {
     font-weight: normal;
 }
 
+div.letschat {
+    bottom: 1%;
+    right: 1%;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 40%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    background: orangered;
+    z-index: 5;
+    white-space: pre;
+}
 
 @keyframes newsslide {
     from {transform: translate(100%, 0);}
