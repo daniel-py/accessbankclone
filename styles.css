@@ -358,7 +358,7 @@ div.img {
     white-space: pre;
     font-size: 1.5rem;
     animation-name: newsslide;
-    animation-duration: 25s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -516,7 +516,7 @@ div.img {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 5;
+    z-index: 3;
     outline: none;
 }
 
@@ -597,7 +597,7 @@ button.blogarr {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 5;
+    z-index: 3;
     outline: none;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
@@ -698,7 +698,14 @@ footer #bottomlinks > div:last-child > * {
     padding: 0 1rem;
 }
 
-
+.stock {
+    background: orangered;
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+    z-index: 5;
+    width: 70px;
+    text-align: center;
+}
 
 
 
