@@ -745,15 +745,10 @@ div.letschat {
     color: white;
     font-weight: bold;
     background: orangered;
-    
     white-space: pre;
 }
 
-div.tamanda {
-    top: 60%;
-}
-
-div.tamanda > p:first-child{
+div.tamanda{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -762,9 +757,13 @@ div.tamanda > p:first-child{
     color: white;
     border-radius: 25px 0 0 25px;
     padding: 1rem 4rem 1rem 2rem;
+    position: ;
+    right: -13%;
+    transition: all 1s ease-in-out;
+    top: 60%;
 }
 
-div.tamanda > p:last-child {
+div.messenger {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -772,15 +771,18 @@ div.tamanda > p:last-child {
     background: #007cff;
     border-radius: 25px 0 0 25px;
     padding: 1rem 4rem 1rem 2rem;
+    margin-top: 1.5rem;
     font-size: 2rem;
+    position: ;
+    right: -16%;
+    transition: all 1s ease-in-out;
+    top: 65%;
 }
 
-div.tamanda > p:last-child > i {
-    font-size: 15px;
-    color: white;
-    transform: rotate(90deg);
-    transform: cale(1, 1);
+div.tamanda:hover, div.messenger:hover {
+    right: 0;
 }
+
 
 @keyframes newsslide {
     from {transform: translate(100%, 0);}
