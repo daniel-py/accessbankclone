@@ -772,13 +772,14 @@ div.tamanda > p:last-child {
     background: #007cff;
     border-radius: 25px 0 0 25px;
     padding: 1rem 4rem 1rem 2rem;
+    font-size: 2rem;
 }
 
 div.tamanda > p:last-child > i {
-    font-size: 25px;
-    font-weight: ;
+    font-size: 15px;
     color: white;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
+    transform: cale(1, 1);
 }
 
 @keyframes newsslide {
