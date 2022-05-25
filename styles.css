@@ -7,7 +7,6 @@
 html {
     font-size: 62.5%;
     font-family: Calibri, sans-serif;
-    overflow: ;
 }
 
 a {
@@ -251,7 +250,6 @@ div.img {
 .m7 p {
     font-size: 1.9rem;
     white-space: pre;
-    font-weight: ;
     margin: .9rem 0 3rem 0;
 }
 
@@ -363,9 +361,7 @@ div.img {
     animation-timing-function: linear;
 }
 
-#news #newscontent:hover {
-    animation-play-state: paused;
-}
+#news #newscontent:hover {animation-play-state: paused;}
 
 #accessmorecontainer {
     width: 83%;
@@ -444,9 +440,7 @@ div.img {
     font-weight: bold;
 }
 
-#accessclosa p:last-of-type {
-    color: #95d5fe;
-}
+#accessclosa p:last-of-type {color: #95d5fe;}
 
 #accessclosa button {
     padding: 1rem 2.3rem;
@@ -472,11 +466,9 @@ div.img {
 }
 
 #accessservicescont {
-    width:;
     margin: 5rem 0 10rem;
     display: flex;
     justify-content: space-between;
-    overflow-x: ;
     transition: all 0.2s ease-in-out;
 }
 
@@ -489,18 +481,14 @@ div.img {
 
 #accessservicescont > a:nth-of-type(3), #accessservicescont > a:nth-of-type(6) {border: none;}
 
-#accessservicescont > *:hover {
-    color:  rgb(26, 104, 165);
-}
+#accessservicescont > *:hover {color:  rgb(26, 104, 165);}
 
 #accessservicescont h3 {
     margin: 1.5rem 0 1rem;
     font-size: 1.9rem;
 }
 
-#accessservicescont p {
-    font-size: 1.5rem;
-}
+#accessservicescont p {font-size: 1.5rem;}
 
 .arr {
     position: absolute;
@@ -667,9 +655,7 @@ footer #newsletter > form > input[type="button"]{
     cursor: pointer;
 }
 
-footer #newsletter > form > input[type="button"]:hover{
-    background: orangered;
-}
+footer #newsletter > form > input[type="button"]:hover{background: orangered;}
 
 footer #bottomlinks {
     background: #26343b;
@@ -688,9 +674,7 @@ footer #bottomlinks > div:first-child > * {
 
 footer #bottomlinks > div:first-child > span {border: none;}
 
-footer #bottomlinks > p {
-    margin: 2rem 0;
-}
+footer #bottomlinks > p {margin: 2rem 0;}
 
 footer #bottomlinks > div:last-child > * {
     font-size: 2rem;
@@ -748,40 +732,31 @@ div.letschat {
     white-space: pre;
 }
 
-div.tamanda{
+div.chat {
+    font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: #004185;
-    font-size: 2rem;
-    color: white;
     border-radius: 25px 0 0 25px;
-    padding: 1rem 4rem 1rem 2rem;
-    position: ;
-    right: -13%;
-    transition: all 1s ease-in-out;
+    padding: 1rem 3rem 1rem 2rem;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+div.tamanda{
+    right: -12%;
     top: 60%;
+    background: #004185;
 }
 
 div.messenger {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    color: white;
-    background: #007cff;
-    border-radius: 25px 0 0 25px;
-    padding: 1rem 4rem 1rem 2rem;
-    margin-top: 1.5rem;
-    font-size: 2rem;
-    position: ;
-    right: -16%;
-    transition: all 1s ease-in-out;
+    right: -15%;
     top: 65%;
+    background: #007cff;
+    margin-top: 1.5rem;
 }
 
-div.tamanda:hover, div.messenger:hover {
-    right: 0;
-}
+div.tamanda:hover, div.messenger:hover {right: 0;}
 
 
 @keyframes newsslide {
