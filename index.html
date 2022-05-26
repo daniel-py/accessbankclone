@@ -298,7 +298,7 @@ transactions like: </p>
                 <a href="#">SITE MAP</a>
                 <a href="#">TERMS OF USE</a>
                 <a href="#">WHISTLE BLOWER</a>
-                <span>LET'S HELP YOU WALK THROUGH THE WEBSITE <a href="#"><i class="fa-solid fa-caret-down"></i></a></span>
+                <span>LET'S HELP YOU WALK THROUGH THE WEBSITE <a href="" id="togglebnav"><i class="fa-solid fa-caret-down"></i></a></span>
             </div>
             <p>&copy COPYRIGHT ACCESSBANK CLONE by Daniel for iPrep Hub 2022</p>
             <div>
@@ -310,63 +310,66 @@ transactions like: </p>
                 <i class="fa-brands fa-linkedin-in"></i>
             </div>
         </div>
+
+
+        <div id="bottomnavlinks">
+            <div>
+                <h2>ABOUT US</h2>
+                <a href="#">Our History</a>
+                <a href="#">Corporate Governance</a>
+                <a href="#">Our Businesses</a>
+                <a href="#">Corporate Profile</a>
+                <a href="#">Board and Management Team</a>
+                <a href="#">Corporate Philosophy</a>
+                <a href="#">Our Awards</a>
+            </div>
+            <div>
+                <h2>QUICK LINKS</h2>
+                <a href="#">Access Online</a>
+                <a href="#">Anti-Money Laundering</a>
+                <a href="#">Customer Complaints & Enquiries</a>
+                <a href="#">Download Center</a>
+                <a href="#">E-Channels</a>
+                <a href="#">Form M Rates</a>
+                <a href="#">Online Security Tips</a>
+                <a href="#">Rates Watch</a>
+                <a href="#">Scam Alert</a>
+                <a href="#">Uber and Access Visa card T&C</a>
+                <a href="#">Trade Finance</a>
+                <a href="#">Whistle Blower</a>
+            </div>
+            <div>
+                <h2>YOU ARE...</h2>
+                <a href="#">A Company</a>
+                <a href="#">A Job Applicant</a>
+                <a href="#">A Journalist</a>
+                <a href="#">A Teenager</a>
+                <a href="#">A Woman</a>
+                <a href="#">An Entrepreneur</a>
+                <a href="#">An Individual</a>
+                <a href="#">An Investor</a>
+            </div>
+            <div>
+                <h2>CAREERS</h2>
+                <a href="#">Working at Access Bank</a>
+                <a href="#">Your Career</a>
+                <a href="#">Opportunities</a>
+                <a href="#">Recruitment Process</a>
+            </div>
+            <div>
+                <h2>CONTACT US</h2>
+                <a href="#">Agency Banking</a>
+                <a href="#">Interactive Voice Responce (IVR)</a>
+                <a href="#">My Access</a>
+                <a href="#">We Care</a>
+                <a href="#">Branch & ATM Locator</a>
+                <a href="#">Biometrics Enrollment Branches</a>
+                <a href="#">Branches with Wi-Fi</a>
+            </div>
+        </div>
     </footer>
 
-    <div id="bottomnavlinks">
-        <div>
-            <h2>ABOUT US</h2>
-            <a href="#">Our History</a>
-            <a href="#">Corporate Governance</a>
-            <a href="#">Our Businesses</a>
-            <a href="#">Corporate Profile</a>
-            <a href="#">Board and Management Team</a>
-            <a href="#">Corporate Philosophy</a>
-            <a href="#">Our Awards</a>
-        </div>
-        <div>
-            <h2>QUICK LINKS</h2>
-            <a href="#">Access Online</a>
-            <a href="#">Anti-Money Laundering</a>
-            <a href="#">Customer Complaints & Enquiries</a>
-            <a href="#">Download Center</a>
-            <a href="#">E-Channels</a>
-            <a href="#">Form M Rates</a>
-            <a href="#">Online Security Tips</a>
-            <a href="#">Rates Watch</a>
-            <a href="#">Scam Alert</a>
-            <a href="#">Uber and Access Visa card T&C</a>
-            <a href="#">Trade Finance</a>
-            <a href="#">Whistle Blower</a>
-        </div>
-        <div>
-            <h2>YOU ARE...</h2>
-            <a href="#">A Company</a>
-            <a href="#">A Job Applicant</a>
-            <a href="#">A Journalist</a>
-            <a href="#">A Teenager</a>
-            <a href="#">A Woman</a>
-            <a href="#">An Entrepreneur</a>
-            <a href="#">An Individual</a>
-            <a href="#">An Investor</a>
-        </div>
-        <div>
-            <h2>CAREERS</h2>
-            <a href="#">Working at Access Bank</a>
-            <a href="#">Your Career</a>
-            <a href="#">Opportunities</a>
-            <a href="#">Recruitment Process</a>
-        </div>
-        <div>
-            <h2>CONTACT US</h2>
-            <a href="#">Agency Banking</a>
-            <a href="#">Interactive Voice Responce (IVR)</a>
-            <a href="#">My Access</a>
-            <a href="#">We Care</a>
-            <a href="#">Branch & ATM Locator</a>
-            <a href="#">Biometrics Enrollment Branches</a>
-            <a href="#">Branches with Wi-Fi</a>
-        </div>
-    </div>
+    
   
     <script>
         let counter = 1;
@@ -453,6 +456,16 @@ transactions like: </p>
             else if (blogmarg == 100){
                 blogmarg = 0;
                 blogslide.className = ''
+            }
+        })
+
+        let togglebnav = document.querySelector("#togglebnav");
+        let bnavtogg = off;
+
+        togglebnav.addEventListener('click', function(e){
+            if bnavtogg == 'off'{
+                bnavtogg == on
+                
             }
         })
     </script>

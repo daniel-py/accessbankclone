@@ -785,7 +785,11 @@ div.tamanda:hover, div.messenger:hover {right: 0;}
     margin-bottom: 1rem;
 }
 
-#bottomnavlinks a{
+#bottomnavlinks h2{
+    font-weight: ;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
 
 @keyframes newsslide {
     from {transform: translate(100%, 0);}
