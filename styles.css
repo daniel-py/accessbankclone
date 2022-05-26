@@ -770,10 +770,22 @@ div.tamanda:hover, div.messenger:hover {right: 0;}
 
 #bottomnavlinks {
     background: #fff;
-    padding: 4rem;
+    color: #26343b;
+    padding: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    transition: all .3s linear;
+    overflow: hidden;
+    height: ;
 }
+
+#bottomnavlinks a{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#bottomnavlinks a{
 
 @keyframes newsslide {
     from {transform: translate(100%, 0);}
