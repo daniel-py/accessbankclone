@@ -460,11 +460,12 @@ transactions like: </p>
         })
 
         let togglebnav = document.querySelector("#togglebnav");
-        let bnavtogg = off;
+        let footer = document.querySelector('footer')
+        let bnavtogg = 0;
 
         togglebnav.addEventListener('click', function(e){
-            if bnavtogg == 'off'{
-                bnavtogg == on
+            if(bnavtogg == 0){
+                bnavtogg = 1
                 
             }
         })

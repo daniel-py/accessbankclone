@@ -619,6 +619,14 @@ button.blograrr {right: 6%;}
     color: rgb(26, 104, 165);
 }
 
+footer {
+    height: 24rem;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+
+.footerheight {height:fit-content}
+
 footer #newsletter {
     color: white;
     background: rgb(125, 142, 150);
@@ -774,9 +782,6 @@ div.tamanda:hover, div.messenger:hover {right: 0;}
     padding: 5rem;
     display: flex;
     justify-content: space-around;
-    transition: all .3s linear;
-    overflow: hidden;
-    height: ;
 }
 
 #bottomnavlinks a{
