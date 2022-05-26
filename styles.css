@@ -768,6 +768,12 @@ div.messenger {
 
 div.tamanda:hover, div.messenger:hover {right: 0;}
 
+#bottomnavlinks {
+    background: #fff;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
 
 @keyframes newsslide {
     from {transform: translate(100%, 0);}
