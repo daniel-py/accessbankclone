@@ -620,12 +620,12 @@ button.blograrr {right: 6%;}
 }
 
 footer {
-    height: 24rem;
+    max-height: 24rem;
     overflow: hidden;
     transition: all .3s linear;
 }
 
-.footerheight {height:fit-content}
+.footerheight {max-height:fit-content}
 
 footer #newsletter {
     color: white;
@@ -674,6 +674,8 @@ footer #newsletter > form > input[type="button"]{
 }
 
 footer #newsletter > form > input[type="button"]:hover{background: orangered;}
+
+footer #togglebnav{cursor: pointer;}
 
 footer #bottomlinks {
     background: #26343b;
