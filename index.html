@@ -311,7 +311,6 @@ transactions like: </p>
             </div>
         </div>
 
-
         <div id="bottomnavlinks">
             <div>
                 <h2>ABOUT US</h2>
@@ -368,8 +367,6 @@ transactions like: </p>
             </div>
         </div>
     </footer>
-
-    
   
     <script>
         let counter = 1;
@@ -378,20 +375,20 @@ transactions like: </p>
             for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
                     document.querySelectorAll('#dots label')[i].className = ''
                 }
-            document.querySelector(`label[for="img${counter}"`).className = 'checked'
-            counter++
+            document.querySelector(`label[for="img${counter}"`).className = 'checked';
+            counter++;
             if(counter >7){ counter=1}
         }
-        clearint = setInterval(interval, 2000)
+        clearint = setInterval(interval, 2000);
 
         for (label of document.querySelectorAll('#dots label')) {
             label.addEventListener('click', function(e){
                 for (i=0; i<document.querySelectorAll('#dots label').length; i++) {
-                    document.querySelectorAll('#dots label')[i].className = ''
+                    document.querySelectorAll('#dots label')[i].className = '';
                 }
-                e.target.className = 'checked'
-                cont = e.target.getAttribute('for')
-                counter = cont[cont.length - 1]
+                e.target.className = 'checked';
+                cont = e.target.getAttribute('for');
+                counter = cont[cont.length - 1];
             })
         }
 
@@ -400,80 +397,80 @@ transactions like: </p>
             for(i=0; i<100; i++){ clearInterval(i) }
         })
         slideshow.addEventListener('mouseleave', function(){
-            setInterval(interval, 2000)
+            setInterval(interval, 2000);
         })
 
         let rightbtn = document.querySelector(".rarr");
         let leftbtn = document.querySelector(".larr");
-        let carouselslide = document.querySelector("#accessservicescont")
+        let carouselslide = document.querySelector("#accessservicescont");
         let marg = 0;
 
         rightbtn.addEventListener('click', function(e){
             console.log("clicked")
             if (marg == 0){
-                marg = 100
-                carouselslide.className = 'rightslide'
+                marg = 100;
+                carouselslide.className = 'rightslide';
             }
             else if (marg == 100){
                 marg = 0;
-                carouselslide.className = ''
+                carouselslide.className = '';
             }
-        })
+        });
         leftbtn.addEventListener('click', function(e){
-            console.log("clicked")
+            console.log("clicked");
             if (marg == 0){
-                marg = 100
-                carouselslide.className = 'rightslide'
+                marg = 100;
+                carouselslide.className = 'rightslide';
             }
             else if (marg == 100){
                 marg = 0;
-                carouselslide.className = ''
+                carouselslide.className = '';
             }
-        })
+        });
 
         let rightblogbtn = document.querySelector(".blograrr");
         let leftblogbtn = document.querySelector(".bloglarr");
-        let blogslide = document.querySelector("#blogpostscontainer")
+        let blogslide = document.querySelector("#blogpostscontainer");
         let blogmarg = 0;
 
         rightblogbtn.addEventListener('click', function(e){
-            console.log("clicked")
+            console.log("clicked");
             if (blogmarg == 0){
-                blogmarg = 100
+                blogmarg = 100;
                 blogslide.className = 'rightslide'
             }
             else if (blogmarg == 100){
                 blogmarg = 0;
-                blogslide.className = ''
+                blogslide.className = '';
             }
         })
         leftblogbtn.addEventListener('click', function(e){
-            console.log("clicked")
+            console.log("clicked");
             if (blogmarg == 0){
-                blogmarg = 100
-                blogslide.className = 'rightslide'
+                blogmarg = 100;
+                blogslide.className = 'rightslide';
             }
             else if (blogmarg == 100){
                 blogmarg = 0;
                 blogslide.className = ''
             }
-        })
+        });
 
         let togglebnav = document.querySelector("#togglebnav");
-        let footer = document.querySelector('footer')
+        let footer = document.querySelector('footer');
         let bnavtogg = 0;
 
         togglebnav.addEventListener('click', function(e){
             if(bnavtogg == 0){
-                bnavtogg = 1
-                footer.className = 'footerheight'
-                window.scrollTo(0, document.body.scrollHeight)
+                bnavtogg = 1;
+                footer.className = 'footerheight';
+                window.scrollTo(0, document.body.scrollHeight);
             }
             else if(bnavtogg == 1){
-                bnavtogg = 0
-                footer.className = ''
+                bnavtogg = 0;
+                footer.className = '';
             }
-        })
+        });
     </script>
 </body>
 </html>
